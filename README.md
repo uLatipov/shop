@@ -36,9 +36,9 @@ So I came to conclusion, that catalog is the same as searching
 1. Get all info about product by id
 2. Buy a product -registred
    User must provide following info upon buying a product:
-   1. Shipping address
-   2. Postal code
-   3. Phone number to contact
+    1. Shipping address
+    2. Postal code
+    3. Phone number to contact
 3. Report a product -registred
 4. Write a review of a product -registred
 5. Write some textual review
@@ -74,3 +74,5 @@ a process of writing a review for now would be as following:
 5. Admin can add a product, the process is as following:
    First specifies products category(beverages), then manufacturer, then creates specifications for the product("1L", "2L" and etc)
    Specifications is basically different versions of the same product - amount of specifications is not limited 1. admin must specify which of the specifications gonna be the default one, default specification of the product is gonna have a required field of title that is gonna be shown in the title of the product, the price and the pictures shown for the product is also taken from the default specification. 2. specifications have separate price, separate name("1L" "2L" etc), optionally separate images, specifications can have an optional field of sale price. Specifications also have a required field of extraSpecs where admin gives information about the product/separate specification ("material", "expiration perioed", "ram" "disk" "processor" fields of laptop for example). extra specs is required only for default specifiation of the product
+
+## Process of buying
